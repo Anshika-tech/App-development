@@ -16,7 +16,8 @@ class Screens2 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body:Column(
+      body:SafeArea(child:
+        Column(
         children: [
           Text("LOGIN",style:TextStyle(fontSize: 20,)),
           SizedBox(
@@ -82,6 +83,7 @@ class Screens2 extends StatelessWidget {
         ],
         
       ),
+     ),
     );
     
   }
